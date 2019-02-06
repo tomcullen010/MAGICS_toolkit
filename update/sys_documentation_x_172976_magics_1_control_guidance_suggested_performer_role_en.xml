@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="guidance_suggested_performer_role" label="Guidance Suggested Performer Role" language="en" table="x_172976_magics_1_control">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>guidance_suggested_performer_role</element>
+            <help/>
+            <hint/>
+            <label>Guidance Suggested Performer Role</label>
+            <language>en</language>
+            <name>x_172976_magics_1_control</name>
+            <plural>Guidance Suggested Performer Roles</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-06 16:26:00</sys_created_on>
+            <sys_id>7b60741cdbaf2300f0effabdbf9619a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Guidance Suggested Performer Role</sys_name>
+            <sys_package display_value="Magics toolkit" source="x_172976_magics_1">19ee2854dbaf2300f0effabdbf9619c9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Magics toolkit">19ee2854dbaf2300f0effabdbf9619c9</sys_scope>
+            <sys_update_name>sys_documentation_x_172976_magics_1_control_guidance_suggested_performer_role_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-06 16:26:00</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

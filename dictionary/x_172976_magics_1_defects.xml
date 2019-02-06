@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Defects" max_length="40" name="x_172976_magics_1_defects" type="collection">
+        <element label="Action Plan" max_length="1000" name="action_plan" type="string"/>
+        <element label="Defect" max_length="1000" name="defect" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="0" label="Order" max_length="40" name="order" type="integer"/>
+        <element label="Parent" max_length="32" name="parent" reference="x_172976_magics_1_assessment" type="reference"/>
+        <element label="Resolution date" max_length="40" name="resolution_date" type="glide_date"/>
+        <element label="Target date" max_length="40" name="target_date" type="glide_date"/>
+        <index name="index">
+            <element name="parent"/>
+        </index>
+    </element>
+</database>

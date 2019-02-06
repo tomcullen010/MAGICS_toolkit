@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Control" max_length="40" name="x_172976_magics_1_control" type="collection">
+        <element label="Activity" max_length="8000" name="activity" type="html"/>
+        <element label="Activity URL" max_length="1024" name="activity_url" type="url"/>
+        <element label="Description" max_length="1000" name="description" type="string"/>
+        <element label="Guidance" max_length="8000" name="guidance" type="html"/>
+        <element label="Guidance Suggested Performer Role" max_length="40" name="guidance_suggested_performer_role" type="string"/>
+        <element label="Name" max_length="1000" name="name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+    </element>
+</database>
