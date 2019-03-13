@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="previous_quarter" label="Previous quarter" language="en" table="x_172976_magics_1_assessment">
+    <sys_documentation element="performance_sample_size" label="Performance sample size" language="en" table="x_172976_magics_1_control">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>previous_quarter</element>
+            <element>performance_sample_size</element>
             <help/>
             <hint/>
-            <label>Previous quarter</label>
+            <label>Performance sample size</label>
             <language>en</language>
-            <name>x_172976_magics_1_assessment</name>
-            <plural>Previous quarters</plural>
+            <name>x_172976_magics_1_control</name>
+            <plural>Performance sample sizes</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-06 16:34:25</sys_created_on>
-            <sys_id>8752f85cdbaf2300f0effabdbf961901</sys_id>
+            <sys_created_on>2019-02-07 16:57:51</sys_created_on>
+            <sys_id>bf414aacdbeb6300f0effabdbf96195a</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Previous quarter</sys_name>
+            <sys_name>Performance sample size</sys_name>
             <sys_package display_value="Magics toolkit" source="x_172976_magics_1">19ee2854dbaf2300f0effabdbf9619c9</sys_package>
             <sys_policy/>
             <sys_scope display_value="Magics toolkit">19ee2854dbaf2300f0effabdbf9619c9</sys_scope>
-            <sys_update_name>sys_documentation_x_172976_magics_1_assessment_previous_quarter_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_172976_magics_1_control_performance_sample_size_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-06 16:34:25</sys_updated_on>
+            <sys_updated_on>2019-02-07 16:57:51</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

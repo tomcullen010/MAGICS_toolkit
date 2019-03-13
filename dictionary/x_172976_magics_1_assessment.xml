@@ -1,33 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Assessment" max_length="40" name="x_172976_magics_1_assessment" type="collection">
-        <element label="Controls" max_length="32" name="controls" reference="x_172976_magics_1_control" type="reference"/>
-        <element label="Current quarter" max_length="40" name="current_quarter" type="string"/>
-        <element label="Current quarter plus 1" max_length="40" name="current_quarter_plus_1" type="string"/>
-        <element label="Current quarter plus 2" max_length="40" name="current_quarter_plus_2" type="string"/>
         <element display="true" label="Name" max_length="40" name="name" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
-        <element choice="1" label="Performance frequency" max_length="40" name="performance_frequency" type="choice">
-            <choice/>
+        <element choice="1" label="Reporting Quarter" max_length="40" name="reporting_quarter" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="JFM" sequence="0" value="JFM"/>
+                <element inactive_on_update="false" label="AMJ" sequence="1" value="AMJ"/>
+                <element inactive_on_update="false" label="JAS" sequence="2" value="JAS"/>
+                <element inactive_on_update="false" label="OND" sequence="3" value="OND"/>
+            </choice>
         </element>
-        <element choice="1" label="Performance sample size" max_length="40" name="performance_sample_size" type="choice">
-            <choice/>
-        </element>
-        <element choice="1" label="Performance timing" max_length="40" name="performance_timing" type="choice">
-            <choice/>
-        </element>
-        <element label="Performer" max_length="32" name="performer" reference="sys_user" type="reference"/>
-        <element label="Performer comments" max_length="1000" name="performer_comments" type="string"/>
-        <element label="Performer Hypercare Link" max_length="1024" name="performer_hypercare_link" type="url"/>
-        <element label="Previous quarter" max_length="40" name="previous_quarter" type="string"/>
-        <element label="Reporting Quarter" max_length="40" name="reporting_quarter" type="string"/>
-        <element choice="1" label="Target" max_length="40" name="target" type="choice">
-            <choice/>
-        </element>
-        <index name="index">
-            <element name="controls"/>
-        </index>
-        <index name="index2">
-            <element name="performer"/>
-        </index>
     </element>
 </database>

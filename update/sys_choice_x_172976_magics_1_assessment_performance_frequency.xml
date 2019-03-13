@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="performance_frequency" table="x_172976_magics_1_assessment" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>performance_frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Monthly</label>
+            <language>en</language>
+            <name>x_172976_magics_1_assessment</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-06 23:44:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a1b4965cdba36300f0effabdbf9619e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-06 23:44:07</sys_updated_on>
+            <value>Monthly</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>performance_frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Quarterly</label>
+            <language>en</language>
+            <name>x_172976_magics_1_assessment</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-06 23:44:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a5b4965cdba36300f0effabdbf9619e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-06 23:44:07</sys_updated_on>
+            <value>Quarterly</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>performance_frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Semi-Annually</label>
+            <language>en</language>
+            <name>x_172976_magics_1_assessment</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-06 23:44:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>65b4965cdba36300f0effabdbf9619e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-06 23:44:07</sys_updated_on>
+            <value>Semi-Annually</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>performance_frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Annually</label>
+            <language>en</language>
+            <name>x_172976_magics_1_assessment</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-06 23:44:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>25b4965cdba36300f0effabdbf9619e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-06 23:44:07</sys_updated_on>
+            <value>Annually</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>performance_frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Per IRAM</label>
+            <language>en</language>
+            <name>x_172976_magics_1_assessment</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-06 23:44:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e1b4965cdba36300f0effabdbf9619ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-06 23:44:07</sys_updated_on>
+            <value>Per IRAM</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>performance_frequency</element>
+            <name>x_172976_magics_1_assessment</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-06 23:44:07</sys_created_on>
+            <sys_id>6db4965cdba36300f0effabdbf9619e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>performance_frequency</sys_name>
+            <sys_package display_value="Magics toolkit" source="x_172976_magics_1">19ee2854dbaf2300f0effabdbf9619c9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Magics toolkit">19ee2854dbaf2300f0effabdbf9619c9</sys_scope>
+            <sys_update_name>sys_choice_x_172976_magics_1_assessment_performance_frequency</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-06 23:44:07</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

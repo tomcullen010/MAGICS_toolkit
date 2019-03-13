@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="performance_timing" table="x_172976_magics_1_control" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>performance_timing</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AMJ</label>
+            <language>en</language>
+            <name>x_172976_magics_1_control</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-07 17:11:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b4640220db2f6300f0effabdbf96194e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-07 17:11:17</sys_updated_on>
+            <value>AMJ</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>performance_timing</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>JFM</label>
+            <language>en</language>
+            <name>x_172976_magics_1_control</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-07 17:11:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>78640220db2f6300f0effabdbf96194f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-07 17:11:17</sys_updated_on>
+            <value>JFM</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>performance_timing</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>JFM &amp; JAS</label>
+            <language>en</language>
+            <name>x_172976_magics_1_control</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-07 17:11:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>38640220db2f6300f0effabdbf961950</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-07 17:11:17</sys_updated_on>
+            <value>JFM &amp; JAS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>performance_timing</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OND</label>
+            <language>en</language>
+            <name>x_172976_magics_1_control</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-07 17:11:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f4640220db2f6300f0effabdbf961951</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-07 17:11:17</sys_updated_on>
+            <value>OND</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>performance_timing</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OND &amp; AMJ</label>
+            <language>en</language>
+            <name>x_172976_magics_1_control</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-07 17:11:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b4640220db2f6300f0effabdbf961952</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-07 17:11:17</sys_updated_on>
+            <value>OND &amp; AMJ</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>performance_timing</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OND, JFM, AMJ, JAS</label>
+            <language>en</language>
+            <name>x_172976_magics_1_control</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-07 17:11:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f0648a20db2f6300f0effabdbf961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-07 17:11:17</sys_updated_on>
+            <value>OND, JFM, AMJ, JAS</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>performance_timing</element>
+            <name>x_172976_magics_1_control</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-07 17:11:17</sys_created_on>
+            <sys_id>30640220db2f6300f0effabdbf96194f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>performance_timing</sys_name>
+            <sys_package display_value="Magics toolkit" source="x_172976_magics_1">19ee2854dbaf2300f0effabdbf9619c9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Magics toolkit">19ee2854dbaf2300f0effabdbf9619c9</sys_scope>
+            <sys_update_name>sys_choice_x_172976_magics_1_control_performance_timing</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-07 17:11:17</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

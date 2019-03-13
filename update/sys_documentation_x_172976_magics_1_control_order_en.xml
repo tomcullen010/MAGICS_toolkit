@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="performer_comments" label="Performer comments" language="en" table="x_172976_magics_1_assessment">
+    <sys_documentation element="order" label="Order" language="en" table="x_172976_magics_1_control">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>performer_comments</element>
+            <element>order</element>
             <help/>
             <hint/>
-            <label>Performer comments</label>
+            <label>Order</label>
             <language>en</language>
-            <name>x_172976_magics_1_assessment</name>
-            <plural>Performer comments</plural>
+            <name>x_172976_magics_1_control</name>
+            <plural>Orders</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-02-06 16:34:25</sys_created_on>
-            <sys_id>0b52b85cdbaf2300f0effabdbf9619ff</sys_id>
+            <sys_created_on>2019-02-06 23:08:01</sys_created_on>
+            <sys_id>a87cc218dba36300f0effabdbf96199e</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Performer comments</sys_name>
+            <sys_name>Order</sys_name>
             <sys_package display_value="Magics toolkit" source="x_172976_magics_1">19ee2854dbaf2300f0effabdbf9619c9</sys_package>
             <sys_policy/>
             <sys_scope display_value="Magics toolkit">19ee2854dbaf2300f0effabdbf9619c9</sys_scope>
-            <sys_update_name>sys_documentation_x_172976_magics_1_assessment_performer_comments_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_172976_magics_1_control_order_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-06 16:34:25</sys_updated_on>
+            <sys_updated_on>2019-02-06 23:08:01</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

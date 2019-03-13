@@ -2,10 +2,72 @@
     <element label="Control" max_length="40" name="x_172976_magics_1_control" type="collection">
         <element label="Activity" max_length="8000" name="activity" type="html"/>
         <element label="Activity URL" max_length="1024" name="activity_url" type="url"/>
+        <element label="Current quarter" max_length="40" name="current_quarter" type="string"/>
+        <element label="Current quarter plus 1" max_length="40" name="current_quarter_plus_1" type="string"/>
+        <element label="Current quarter plus 2" max_length="40" name="current_quarter_plus_2" type="string"/>
         <element label="Description" max_length="1000" name="description" type="string"/>
         <element label="Guidance" max_length="8000" name="guidance" type="html"/>
-        <element label="Guidance Suggested Performer Role" max_length="40" name="guidance_suggested_performer_role" type="string"/>
+        <element choice="1" label="Guidance Suggested Performer Role" max_length="40" name="guidance_suggested_performer_role" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Access Mngt Process Owner/CCO" sequence="0" value="Access Mngt Process Owner/CCO"/>
+                <element inactive_on_update="false" label="Access Mngt Process Owner/Coordinator" sequence="1" value="Access Mngt Process Owner/Coordinator"/>
+                <element inactive_on_update="false" label="HR" sequence="2" value="HR"/>
+                <element inactive_on_update="false" label="HR/Security" sequence="3" value="HR/Security"/>
+                <element inactive_on_update="false" label="PFM/Site Steward" sequence="4" value="PFM/Site Steward"/>
+                <element inactive_on_update="false" label="Site BCP Coordinator" sequence="5" value="Site BCP Coordinator"/>
+                <element inactive_on_update="false" label="Site IC Leader" sequence="6" value="Site IC Leader"/>
+                <element inactive_on_update="false" label="Site Info Security Champion" sequence="7" value="Site Info Security Champion"/>
+            </choice>
+        </element>
         <element label="Name" max_length="1000" name="name" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element default="0" label="Order" max_length="40" name="order" type="integer"/>
+        <element label="Parent" max_length="32" name="parent" reference="x_172976_magics_1_assessment" reference_floats="true" type="reference"/>
+        <element choice="1" label="Performance frequency" max_length="40" name="performance_frequency" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Monthly" sequence="0" value="Monthly"/>
+                <element inactive_on_update="false" label="Quarterly" sequence="1" value="Quarterly"/>
+                <element inactive_on_update="false" label="Semi-Annually" sequence="2" value="Semi-Annually"/>
+                <element inactive_on_update="false" label="Annually" sequence="3" value="Annually"/>
+                <element inactive_on_update="false" label="Per IRAM" sequence="4" value="Per IRAM"/>
+            </choice>
+        </element>
+        <element choice="1" label="Performance sample size" max_length="40" name="performance_sample_size" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="N/A" sequence="0" value="N/A"/>
+                <element inactive_on_update="false" label="varies" sequence="1" value="varies"/>
+                <element inactive_on_update="false" label="1" sequence="2" value="1"/>
+                <element inactive_on_update="false" label="7" sequence="3" value="7"/>
+                <element inactive_on_update="false" label="13" sequence="4" value="13"/>
+                <element inactive_on_update="false" label="10% max 25" sequence="5" value="10% max 25"/>
+                <element inactive_on_update="false" label="100%" sequence="6" value="100%"/>
+            </choice>
+        </element>
+        <element choice="1" label="Performance timing" max_length="40" name="performance_timing" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="AMJ" sequence="0" value="AMJ"/>
+                <element inactive_on_update="false" label="JFM" sequence="1" value="JFM"/>
+                <element inactive_on_update="false" label="JFM &amp; JAS" sequence="2" value="JFM &amp; JAS"/>
+                <element inactive_on_update="false" label="OND" sequence="3" value="OND"/>
+                <element inactive_on_update="false" label="OND &amp; AMJ" sequence="4" value="OND &amp; AMJ"/>
+                <element inactive_on_update="false" label="OND, JFM, AMJ, JAS" sequence="5" value="OND, JFM, AMJ, JAS"/>
+            </choice>
+        </element>
+        <element label="Performer" max_length="32" name="performer" reference="sys_user" type="reference"/>
+        <element label="Performer comments" max_length="1000" name="performer_comments" type="string"/>
+        <element label="Performer Hypercare Link" max_length="1024" name="performer_hypercare_link" type="url"/>
+        <element label="Previous quarter" max_length="40" name="previous_quarter" type="string"/>
+        <element choice="1" label="Target" max_length="40" name="target" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="All Attributes &quot;OK&quot;" sequence="0" value="All Attributes &quot;OK&quot;"/>
+                <element inactive_on_update="false" label="&quot;Yes&quot;" sequence="1" value="&quot;Yes&quot;"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="parent"/>
+        </index>
+        <index name="index2">
+            <element name="performer"/>
+        </index>
     </element>
 </database>

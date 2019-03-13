@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="performance_timing" table="x_172976_magics_1_assessment">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="performer_comments" table="x_172976_magics_1_control">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -11,10 +11,10 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice>1</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Performance timing</column_label>
+        <column_label>Performer comments</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -27,15 +27,15 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>performance_timing</element>
+        <element>performer_comments</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Choice">choice</internal_type>
+        <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
-        <name>x_172976_magics_1_assessment</name>
+        <max_length>1000</max_length>
+        <name>x_172976_magics_1_control</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -52,16 +52,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-02-06 16:34:23</sys_created_on>
-        <sys_id>c381f41cdbaf2300f0effabdbf96191a</sys_id>
+        <sys_created_on>2019-02-07 16:57:49</sys_created_on>
+        <sys_id>1befb16cdbeb6300f0effabdbf9619c7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Performance timing</sys_name>
+        <sys_name>Performer comments</sys_name>
         <sys_package display_value="Magics toolkit" source="x_172976_magics_1">19ee2854dbaf2300f0effabdbf9619c9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Magics toolkit">19ee2854dbaf2300f0effabdbf9619c9</sys_scope>
-        <sys_update_name>sys_dictionary_x_172976_magics_1_assessment_performance_timing</sys_update_name>
+        <sys_update_name>sys_dictionary_x_172976_magics_1_control_performer_comments</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-02-06 16:34:23</sys_updated_on>
+        <sys_updated_on>2019-02-07 16:57:49</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

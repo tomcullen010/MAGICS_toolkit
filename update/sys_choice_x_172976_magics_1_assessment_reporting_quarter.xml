@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="reporting_quarter" table="x_172976_magics_1_assessment" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reporting_quarter</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>JFM</label>
+            <language>en</language>
+            <name>x_172976_magics_1_assessment</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-07 16:50:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b88f352cdbeb6300f0effabdbf96195e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-07 16:50:00</sys_updated_on>
+            <value>JFM</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reporting_quarter</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AMJ</label>
+            <language>en</language>
+            <name>x_172976_magics_1_assessment</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-07 16:50:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bc8f756cdbeb6300f0effabdbf9619d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-07 16:50:00</sys_updated_on>
+            <value>AMJ</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reporting_quarter</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>JAS</label>
+            <language>en</language>
+            <name>x_172976_magics_1_assessment</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-07 16:50:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7c8f756cdbeb6300f0effabdbf9619d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-07 16:50:00</sys_updated_on>
+            <value>JAS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reporting_quarter</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OND</label>
+            <language>en</language>
+            <name>x_172976_magics_1_assessment</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-07 16:50:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3c8f756cdbeb6300f0effabdbf9619d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-07 16:50:00</sys_updated_on>
+            <value>OND</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>reporting_quarter</element>
+            <name>x_172976_magics_1_assessment</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-07 16:50:00</sys_created_on>
+            <sys_id>748f756cdbeb6300f0effabdbf9619d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>reporting_quarter</sys_name>
+            <sys_package display_value="Magics toolkit" source="x_172976_magics_1">19ee2854dbaf2300f0effabdbf9619c9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Magics toolkit">19ee2854dbaf2300f0effabdbf9619c9</sys_scope>
+            <sys_update_name>sys_choice_x_172976_magics_1_assessment_reporting_quarter</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-07 16:50:00</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
